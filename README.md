@@ -1,5 +1,5 @@
-# Your libs name
+# Gm Tab
 
-Your project description
+Tab component with out any deps.
 
 [简体中文](./README_zh.md) | **English**

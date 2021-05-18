@@ -1,19 +1,19 @@
 {
-  "name": "your-project-name",
+  "name": "gm-tab",
   "version": "0.1.0",
-  "description": "your description",
+  "description": "Tab component with out any deps",
   "keywords": [
-    "your-key-words"
+    "tab"
   ],
   "author": {
-    "name": "your-nickname",
-    "email": "your-email@email.com"
+    "name": "GuMiao",
+    "email": "gutianhuang@foxmail.com"
   },
   "repository": {
-    "url": "git+https://github.com/your-username/your-libs-name.git",
+    "url": "git+https://github.com/Gu-Miao/gm-tab.git",
     "type": "git"
   },
-  "homepage": "https://github.com/your-username/your-libs-name",
+  "homepage": "https://github.com/Gu-Miao/gm-tab",
   "license": "MIT",
   "files": [
     "package.json",
@@ -22,9 +22,9 @@
     "LICENSE",
     "dist"
   ],
-  "main": "dist/lib/your-libs-name.min.js",
-  "browser": "dist/browser/your-libs-name.min.js",
-  "module": "dist/es/your-libs-name.js",
+  "main": "dist/lib/gm-tab.min.js",
+  "browser": "dist/browser/gm-tab.min.js",
+  "module": "dist/es/gm-tab.js",
   "scripts": {
     "start": "parcel ./src/test/index.html --out-dir .cache/tmp",
     "build:css": "parcel build ./src/style.less --out-dir dist --experimental-scope-hoisting --out-file component-maker.min.css",
